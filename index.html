@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!-- Standard meta type -->
+        <meta charset = "UTF-8"> 
+        <!-- Ensure website view functions properly on both mobile and PC devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jerome Portfolio Website</title>
+        <!-- To normalize. CSS file that helps even out between the different browsers -->
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- Using it for social icons -->
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />  
+
+        <!-- link to css stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <!-- header's logo -->
+            <div class="logo">
+                <!-- alt text empty -->
+                <img src="images/romeq_logo.png" alt="">
+            </div>
+            <!-- navigation bar -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+        
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <!-- list will be a sub-component of nav -->
+                <ul class="nav__list">
+                    <!-- link to Homepage -->
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></a></li>
+                    <!-- link to Experience -->
+                    <li class="nav__item"><a href="#experiences" class="nav__link">Experience</a></a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Contact Me</a></a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <!-- Introduction -->
+        <section class="intro" id ="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jerome</strong>
+            </h1>
+            <p class ="section__subtitle section__subtitle--intro">SMU Senior Student</p>
+            <img src="images/Formal_hb.jpg" alt="Formal Jerome Half-Body">
+        </section>
+
+        <!-- Experience -->
+        <section class="my-experience" id="experiences">
+            <h2 class="section__title section__title--experience">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>skill 1</h3>
+                    <p>description 1</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Unity3D Game Development</h3>
+                    <p>Description</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Photo & Video Editing</h3>
+                    <p>Description</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+        </div>
+        <img src="images/Puffer King 1 PS.jpg" alt="Puffer Diving Photo">
+    </section>
+
+    <!-- Contact me -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="portfolio-01.jpg" alt ="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:jeromequah123@msn.com" class="footer-link">jeromequah123@msn.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link"
+            href="https://github.com/jeromequah">GitHub</a></li>
+            <!-- future social links -->
+            <!-- <li class="social-list__item"><a class="social-list__link"></a></li>
+            <li class="social-list__item"><a class="social-list__link"></a></li>
+            <li class="social-list__item"><a class="social-list__link"></a></li> -->
+        </ul>
+    </footer>
+    </body>
+</html>    
